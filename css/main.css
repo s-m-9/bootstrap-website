@@ -1,0 +1,124 @@
+/* CSS CODE */
+
+@import url('https://fonts.googleapis.com/css?family=Bitter|Raleway');
+/*q, blockquote {
+    quotes: 
+}*/
+
+*{
+    font-family: Raleway, helvetica, arial, sans-serif;
+}
+h1 {
+    font-family: Bitter, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;    
+}
+h2 {
+    font-family: Bitter, 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+}
+
+label {
+    color: #FFF;
+    background-color: #545769;
+    padding: 5px;
+    border: 2px solid #545769;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #545669;
+    color: #FFF;
+    width:180px;
+}
+
+.active {
+    background-color: #2E99AE;
+    border-radius: 5px;
+}
+
+.clear { 
+    clear: both; 
+    height: 150px; 
+}
+
+.top-buffer {
+  margin-top:20px;
+}
+
+.small-padding {
+    padding: 10px;
+}
+
+.bg {
+  background-color: #2E99AE;
+}
+
+.bg-2 {
+  background-color: #545769;  
+}
+
+.bg-kinda-another {
+    background-color: #2E99AE;
+}
+
+.text-white {
+    color: #FFF;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+body {
+    background-color: #31333D;
+}
+
+.bg-almost-black {
+    background-color: #31333D;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.map {
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=127+Gilbert+Rd+Richmond,+BC+V7C+4N3&zoom=12&scale=false&size=600x300&maptype=roadmap&key=AIzaSyBm54l6Oq_-XXPv84xoY65ESS5o-t53Kwc&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C127+Gilbert+Rd+Richmond,+BC+V7C+4N3);
+}
+
+button.navbar-toggler {
+    width:70px;
+    background-color: #545769;
+    border: 2px solid #545769;
+    border-radius: 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 32px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background: #B5DE3B;
+    color: black;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #135588;
+    color: white;
+}
+
+.fa-reddit {
+    background: #FF5701;
+    color: white;
+}
